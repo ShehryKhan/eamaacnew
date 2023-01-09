@@ -5064,3 +5064,23 @@ div.line-chart .chart-legend li {
 .service-box .content-box a:hover{
   color: #f26522;
 }
+
+
+
+.mobile-header-blue .header_mobile .mlogo_wrapper {
+  background-color: #183142;
+}
+
+.mobile-header-blue .header_mobile .mobile_nav .mobile_mainmenu li a {
+  background-color: #183142;
+
+}
+
+
+
+
+@media (max-width: 991px) {
+  .img-responsive {
+      width: 50%;
+  }
+}
