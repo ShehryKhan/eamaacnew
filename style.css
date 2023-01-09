@@ -2086,7 +2086,7 @@ ul.info-list.info_on_right_side li:last-child {
 ## Page Header
 --------------------------------------------------------------*/
 .page-header {
-  background: url(./images/services-bg.jpg) no-repeat fixed bottom;
+  background: url(./images/services-bg.jpg) no-repeat fixed;
   background-size: cover;
   position: relative;
 }
@@ -4176,7 +4176,6 @@ div.wpb_revslider_element {
 }
 
 div.wpb_gmaps_widget .wpb_wrapper {
-  border: none;
   padding: 0;
 }
 
@@ -4253,7 +4252,7 @@ div.line-chart .chart-legend li {
   padding-right: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
-  background-image: url(./images/contactbox.webp);
+  background-image: url(./images/contactbox.webp.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4823,7 +4822,7 @@ div.line-chart .chart-legend li {
   padding-top: 50px;
 }
 .padd-box{
-  padding: 40px;
+  padding: 20px;
 }
 .padd-box-29{
   padding: 34px 29px;
@@ -5047,4 +5046,21 @@ div.line-chart .chart-legend li {
 
 .main-footer {
   background-color: #132735;
+}
+
+.service-box{
+  border-radius: 15px;
+}
+.service-box:hover {
+  background-color: #132735;
+  color: #fff;
+}
+.service-box:hover h4{
+  color: #fff;
+}
+.service-box:hover .content-box a{
+  color: #fff;
+}
+.service-box .content-box a:hover{
+  color: #f26522;
 }
