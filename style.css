@@ -5084,3 +5084,9 @@ div.line-chart .chart-legend li {
       width: 50%;
   }
 }
+
+
+
+#royal_preloader {
+  display: none;
+}
